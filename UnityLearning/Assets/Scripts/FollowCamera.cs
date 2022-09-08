@@ -19,11 +19,12 @@ public class FollowCamera : MonoBehaviour
     void Update()
     {
         Vector3 cameraPos = GetCameraPos();
+        Vector3 cameraAngle = GetCameraAngle();
         Debug.Log("Camera Position: " + cameraPos);
 
-        debugText.text = cameraPos.ToString();
+        debugText.text = cameraAngle.ToString();
 
-        //transform.position = cameraPos + offset;
+        transform.position = new Vector3(Mathf.Sin(cameraAngle.y) * 0.5f + cameraPos.x, 2.25f, Mathf.Cos(cameraAngle.y) * 0.5f + cameraPos.z);
     }
 
     Vector3 GetCameraPos()
@@ -32,5 +33,13 @@ public class FollowCamera : MonoBehaviour
         // through the inspector to the script.
         overCameraRig = GameObject.Find("OVRCameraRig").GetComponent<OVRCameraRig>();
         return overCameraRig.centerEyeAnchor.position;
+    }
+
+    Vector3 GetCameraAngle()
+    {
+        // Remove this line if you are refering the OVRCameraRig component 
+        // through the inspector to the script.
+        overCameraRig = GameObject.Find("OVRCameraRig").GetComponent<OVRCameraRig>();
+        return overCameraRig.centerEyeAnchor.rotation.ToEulerAngles();
     }
 }
