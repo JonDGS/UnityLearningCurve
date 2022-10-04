@@ -109,10 +109,9 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:USING_XR_MANAGEMENT
 -define:USING_XR_SDK_OCULUS
--define:USING_XR_SDK_OPENXR
 -define:USING_COMPATIBLE_OCULUS_XR_PLUGIN_VERSION
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -301,8 +300,8 @@
 -r:"D:/Unity/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VRModule.dll"
 -r:"D:/Unity/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"D:/Unity/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll"
--r:"D:/Utilities/Documents/Unity/UnityLearningCurve/UnityLearning/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
--r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.OpenXR.ref.dll"
+-r:"D:/Utilities/Documents/Unity/TutorialFollow/ValemTutorial/XRSetup20/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"D:/Utilities/Documents/Unity/TutorialFollow/ValemTutorial/XRSetup20/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Oculus/VR/Scripts/Composition/OVRCameraComposition.cs"
 "Assets/Oculus/VR/Scripts/Composition/OVRComposition.cs"
@@ -310,7 +309,6 @@
 "Assets/Oculus/VR/Scripts/Composition/OVRDirectComposition.cs"
 "Assets/Oculus/VR/Scripts/Composition/OVRExternalComposition.cs"
 "Assets/Oculus/VR/Scripts/Composition/OVRSandwichComposition.cs"
-"Assets/Oculus/VR/Scripts/OculusXRFeature.cs"
 "Assets/Oculus/VR/Scripts/OVRBoundary.cs"
 "Assets/Oculus/VR/Scripts/OVRCameraRig.cs"
 "Assets/Oculus/VR/Scripts/OVRCommon.cs"
@@ -336,17 +334,7 @@
 "Assets/Oculus/VR/Scripts/OVRProfile.cs"
 "Assets/Oculus/VR/Scripts/OVRResources.cs"
 "Assets/Oculus/VR/Scripts/OVRRuntimeSettings.cs"
-"Assets/Oculus/VR/Scripts/OVRSceneAnchor.cs"
 "Assets/Oculus/VR/Scripts/OVRSceneLoader.cs"
-"Assets/Oculus/VR/Scripts/OVRSceneManager.cs"
-"Assets/Oculus/VR/Scripts/OVRSceneModelLoader.cs"
-"Assets/Oculus/VR/Scripts/OVRScenePlane.cs"
-"Assets/Oculus/VR/Scripts/OVRScenePlaneMeshFilter.cs"
-"Assets/Oculus/VR/Scripts/OVRScenePrefabOverride.cs"
-"Assets/Oculus/VR/Scripts/OVRSceneVolume.cs"
-"Assets/Oculus/VR/Scripts/OVRSemanticClassification.cs"
-"Assets/Oculus/VR/Scripts/OVRSpace.cs"
-"Assets/Oculus/VR/Scripts/OVRSpatialAnchor.cs"
 "Assets/Oculus/VR/Scripts/OVRTrackedKeyboard/OVRKeyboard.cs"
 "Assets/Oculus/VR/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboard.cs"
 "Assets/Oculus/VR/Scripts/OVRTrackedKeyboard/OVRTrackedKeyboardHands.cs"
@@ -371,7 +359,6 @@
 "Assets/Oculus/VR/Scripts/Util/OVRHandTest.cs"
 "Assets/Oculus/VR/Scripts/Util/OVRInputModule.cs"
 "Assets/Oculus/VR/Scripts/Util/OVRMesh.cs"
-"Assets/Oculus/VR/Scripts/Util/OVRMeshGenerator.cs"
 "Assets/Oculus/VR/Scripts/Util/OVRMeshRenderer.cs"
 "Assets/Oculus/VR/Scripts/Util/OVRMixedRealityCaptureConfiguration.cs"
 "Assets/Oculus/VR/Scripts/Util/OVRMixedRealityCaptureSettings.cs"
@@ -400,7 +387,7 @@
 "Assets/Oculus/VR/ThirdParty/SimpleJSON.cs"
 "Assets/Oculus/VR/ThirdParty/SimpleJSONUnity.cs"
 -langversion:9.0
-/unsafe+
+
 /deterministic
 /optimize+
 /debug:portable
