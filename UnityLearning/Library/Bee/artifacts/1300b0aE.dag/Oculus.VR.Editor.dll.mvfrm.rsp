@@ -1,6 +1,4 @@
 Library\Bee\artifacts\mvdfrm\Unity.XR.Oculus.ref.dll_F7E0CC0D68418BCF.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.Editor.ref.dll_3621FFDAA8DB43B7.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.XR.OpenXR.ref.dll_CD391CA4E5ED3B9A.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.TestRunner.ref.dll_A805A84D9B0C22D9.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.UI.ref.dll_0174E068A5FA251B.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.TestRunner.ref.dll_7423F2FBC6CF80C4.mvfrm
@@ -92,5 +90,9 @@ Library\Bee\artifacts\mvdfrm\Unity.Android.Gradle.dll_5346D445CDD01095.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Android.Types.dll_C1DA52ED4AB78E77.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.Android.Extensions.dll_0F5846D8481D6BF5.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WindowsStandalone.Extensions.dll_26A09F7C47390943.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Plastic.Antlr3.Runtime.dll_2EF3DDACA4D226B3.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Plastic.Newtonsoft.Json.dll_FB679079590715D2.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Plastic.Antlr3.Runtime.dll_D9936E754877DA6C.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Plastic.Newtonsoft.Json.dll_567245042FC69609.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.IonicZip.dll_ECA3B31CE0927A64.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.YamlDotNet.dll_D995CA89A1455158.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.TextureAssets.dll_70B3F3DD6212AF50.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_8B02F16AD20E6177.mvfrm
